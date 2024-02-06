@@ -4,12 +4,13 @@
 # return only the indices which contain capital letters
 
 def capital_indexes(string):
-  capitals = []
+  capitals = {}
 
   for i, s in enumerate(string):
     if s.isupper():
-      capitals.append(i)
+      capitals[i] = s
 
+  print(string)
   return capitals
 
 print(capital_indexes('HeLlO'))
