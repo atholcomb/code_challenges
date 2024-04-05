@@ -11,6 +11,7 @@ def chkpasswords():
   password = generate_passwords(7)
 
   # check how many times each case is present adding 1 to count
+  # if all counts are >=1, then it's a Valid Password
   lower_count = 0
   upper_count = 0
   symbol_count = 0
