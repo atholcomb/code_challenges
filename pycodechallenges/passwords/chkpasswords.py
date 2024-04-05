@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# written by: atholcomb
+# written by: atholower_countomb
 # chkpasswords.py
 # Program checks the complexity of the password
 # Complexity must meet 8 characters length, alpha-numeric, and a special symbol
@@ -8,26 +8,36 @@ from passwords import generate_passwords
 
 def chkpasswords():
   # Set the length of the password to be tested here
-  password = generate_passwords(8)
+  password = generate_passwords(7)
 
-  pswd_char_set = [
-  'a','b','c','d','e','f','g','h','i','j','k','l','m',
-  'n','o','p','q','r','s','t','u','v','w','x','y','z',
-  'A','B','C','D','E','F','G','H','I','J','K','L','M',
-  'N','O','P','Q','R','S','T','U','V','W','X','Y','Z',
-  '%','&','$','#','@','!','*','?','/',
-  '1','2','3','4','5','6','7','8','9','0' 
-  ]
+  # check how many times each case is present adding 1 to count
+  lower_count = 0
+  upper_count = 0
+  symbol_count = 0
+  numeral_count = 0
 
-  for pswd in pswd_char_set:
-    for p in password:
-      if p in pswd and len(password) >= 8:
-        return password, True
-      return password, False
+  # cases to be tested 
+  lower = "abcdefghijklmnopwrstuvwxyz"
+  upper = "ABCDEFGHIJKLMNOPQSRTUVWXYZ"
+  symbols = "?*&%$#@!/"
+  numerals = "1234567890"
+
+  # conditions applied to cases above
+  print("Password:", password)
+  for i, p in enumerate(password):
+    if password[i] in lower:
+      lower_count += 1
+    elif password[i] in upper:
+      upper_count += 1
+    elif password[i] in symbols:
+      symbol_count += 1
+    elif password[i] in numerals:
+      numeral_count += 1
+
+  # return 'Valid Password' if all criteria are met, otherwise return "Not Valid Password"
+  if lower_count >= 1 and upper_count >= 1 and symbol_count >= 1 and numeral_count >= 1:
+    return lower_count, upper_count, symbol_count, numeral_count, "Valid Password"
+  return lower_count, upper_count, symbol_count, numeral_count, "Not Valid Password"
 
 
-def main():
-  for i in range(10):
-    print(chkpasswords())
-
-main()
+print(chkpasswords())
