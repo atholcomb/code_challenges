@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 # written by: atholcomb
 # passwords.py
-# Password Module which generates passwords of specified length
-# To use: Import this module into your script
-# refer to: make_passwords.py and chkpasswords.py
+# Password Module which generates a password of a specified length
+# refer to: make_password.py
 
 from random import choice
 
 def generate_passwords(length):
   password = ''
+
   pswd_char_set = [
   'a','b','c','d','e','f','g','h','i','j','k','l','m',
   'n','o','p','q','r','s','t','u','v','w','x','y','z',

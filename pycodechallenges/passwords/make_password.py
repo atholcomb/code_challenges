@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# written by: atholower_countomb
+# written by: atholcomb
 # make_password.py
 # Program creates a password and checks the complexity of the password
 # Complexity must meet 8 characters length, alpha-numeric, and a special character
@@ -8,7 +8,7 @@ from passwords import generate_passwords
 
 def make_password():
   # Set the length of the password to be tested here
-  password = generate_passwords(8)
+  password = generate_passwords(12)
 
   # check how many times each case is present adding 1 to count
   # if all counts are >=1, then it's a valid password
