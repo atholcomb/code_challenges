@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 # written by: atholower_countomb
 # chkpasswords.py
-# Program checks the complexity of the password
+# Program creates a password and checks the complexity of the password
 # Complexity must meet 8 characters length, alpha-numeric, and a special symbol
 
 from passwords import generate_passwords
 
-def chkpasswords():
+def check_password():
   # Set the length of the password to be tested here
   password = generate_passwords(7)
 
@@ -41,4 +41,4 @@ def chkpasswords():
   return lower_count, upper_count, symbol_count, numeral_count, "Not Valid Password"
 
 
-print(chkpasswords())
+print(check_password())
