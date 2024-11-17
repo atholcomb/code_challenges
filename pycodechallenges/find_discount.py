@@ -16,7 +16,7 @@ def main():
     elif discount % 100 == discount:
       print(find_discount_2s_place(price, discount))
    
-# Generate values instantiates a list of values to be tested
+# generate_values instantiates a list of values to be tested
 def generate_values():
   values = {}
   for i in range(5):
