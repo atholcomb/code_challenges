@@ -4,7 +4,6 @@
 # Create a function that takes two arguments: the original price and the discount
 # percentage as integers and returns the final price after the discount.
 
-#from decimal import Decimal
 from random import randint
 
 def main():
@@ -80,4 +79,5 @@ def find_discount_10s_place(price, discount):
   answer = round(price - ((price * discount) / 100), 2)
   return f"${answer:<7} = {discount}% of ${price} (${price} - ${((price * discount) / 100)})"
  
-main()
+if __name__ == "__main__":
+        main()
