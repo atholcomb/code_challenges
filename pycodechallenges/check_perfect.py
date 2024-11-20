@@ -7,22 +7,21 @@
 # Similarly, 28 is a perfect number, since 1 + 2 + 4 + 7 + 14 = 28.
 
 def check_perfect(number):
-    factors = []
-    sum_factors = 0
+  factors = []
+  sum_factors = 0
 
-    
-    # obtain the factors and store them into factors list
-    for n in range(1, number):
-        if number % n == 0:
-            factors.append(n)
+  # obtain the factors and store them into factors list
+  for n in range(1, number):
+    if number % n == 0:
+      factors.append(n)
 
-    # sum the digits of the original number to see if it's perfect
-    for f in factors:
-        sum_factors += f
+  # sum the digits of the original number to see if it's perfect
+  for factor in factors:
+      sum_factors += factor
 
-        if sum_factors == number:
-            return True
-    return False 
+  if sum_factors == number:
+    return True
+  return False 
 
 
 print(check_perfect(6))
