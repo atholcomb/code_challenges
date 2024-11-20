@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 # written by: atholcomb
 # censor_string.py
-# For a given text string, censor the word inside the list with the given char
+# For a given text string, using the word inside the list,
+# censor the text string with the given censor_character
 
 def censor_string(text_str, censor_list, censor_character):
   for word in censor_list:
