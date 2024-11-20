@@ -1,17 +1,16 @@
 #!/usr/bin/python3
 # written by: atholcomb
 # capital_indexes.py
-# return only the indices which contain capital letters
+# Program returns only the indices which contain capital letters
 
 def capital_indexes(string):
   capitals = {}
 
-  for i, s in enumerate(string):
+  for idx, s in enumerate(string):
     if s.isupper():
-      capitals[i] = s
+      capitals[idx] = s
 
-  print(string)
-  return capitals
+  return string, capitals
 
 print(capital_indexes('HeLlO'))
 print(capital_indexes('HHHHH'))
