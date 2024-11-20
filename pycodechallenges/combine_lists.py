@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 # written by: atholcomb
 # combine_lists.py
+# Generate a new list containing the elements of list2
+# followed by the elements of list1 in reverse order
 
 def combine_lists(list1, list2):
-  # Generate a new list containing the elements of list2
-  # Followed by the elements of list1 in reverse order
-    return list2 + (list1[::-1]) 
+  print(f"Original Order: {list1 + list2}")
+  return f"Reversed Order: {list1[::-1] + list2}"
 	
-Jamies_list = ["Alice", "Cindy", "Bobby", "Jan", "Peter"]
-Drews_list = ["Mike", "Carol", "Greg", "Marcia"]
-
-print(combine_lists(Jamies_list, Drews_list))
+print(combine_lists(["Alice", "Cindy", "Bobby", "Jan", "Peter"], ["Mike", "Carol", "Greg", "Marcia"]))
