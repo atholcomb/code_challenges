@@ -40,7 +40,6 @@ def atbash(string):
   # return solved cipher
   return cipher
     
-
 print(atbash("apple"))  # zkkov
 print(atbash("Hello world!")) # Svool dliow!
 print(atbash("Christmas is the 25th of December")) # Xsirhgnzh rh gsv 25gs lu Wvxvnyvi
