@@ -5,12 +5,12 @@
 # number of ways the items can be arranged, with one item from each group. Order does not matter.
 
 def combinations(*args):
-    result = 1
+  result = 1
 
-    for val in args:
-        result *= val
+  for values in args:
+    result *= values
 
-    return result
+  return result
 
 print(combinations(2, 3)) # 6
 print(combinations(3, 7, 4)) # 84
