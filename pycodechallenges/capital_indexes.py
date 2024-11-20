@@ -6,9 +6,9 @@
 def capital_indexes(string):
   capitals = {}
 
-  for idx, s in enumerate(string):
-    if s.isupper():
-      capitals[idx] = s
+  for idx, letter in enumerate(string):
+    if letter.isupper():
+      capitals[idx] = letter
 
   return string, capitals
 
