@@ -7,13 +7,12 @@ package main
 import ( 
     "fmt"
     "time"
-    "strings"
 )
 
 func main() {
   env := sysCheck()
 
-  fmt.Printf("%s%s\n", "Connected to system: ", strings.Title(env["hostname"]))
+  fmt.Printf("%s%s\n", "Connected to system: ", env["hostname"])
   fmt.Println("//Reading attributes//")
 
   for k, v := range env {
@@ -25,7 +24,7 @@ func main() {
 func sysCheck() map[string]string {
   env := map[string]string {
     "os": "linux",
-    "hostname": "lrs-12-penguin-pc",
+    "hostname": "lrs-12-penguin-dc",
     "cpu_cores": "12",
     "gpu_type": "cuda",
     "ram_size": "128gb",
