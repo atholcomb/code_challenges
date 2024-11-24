@@ -11,7 +11,6 @@ import json
 
 def make_rug(m, n, s):
   result = []
-  char1 = '"'
 
   for i in range(m):
     value = s * n
