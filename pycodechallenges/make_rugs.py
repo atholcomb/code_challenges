@@ -7,6 +7,8 @@
 # The character passed in through the proc repeating n times.
 # You can set a value for the parameter when creating the function e.g. def func(x = 3)
 
+import json
+
 def make_rug(m, n, s):
   result = []
   char1 = '"'
@@ -15,7 +17,7 @@ def make_rug(m, n, s):
     value = s * n
     result.append(value)
   
-  return f"make_rug{(m, n, s)} -> ["+','.join([f'\n{char1:>3}{r}"' for r in result])+'\n]'
+  return f"make_rug{(m, n, s)} -> {json.dumps(result, indent=2)}"
 
 print(make_rug(3, 5, '#'),"\n")
 print(make_rug(3, 5, '$'),"\n")
