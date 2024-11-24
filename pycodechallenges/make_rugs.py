@@ -18,8 +18,8 @@ def make_rug(column, row, char):
   
   return f"make_rug{(column, row, char)} -> {json.dumps(rug, indent=2)}"
 
-print(make_rug(3, 5, '#'),"\n")
-print(make_rug(3, 5, '$'),"\n")
+print(make_rug(3, 5, '#'))
+print(make_rug(3, 5, '$'))
 print(make_rug(2, 2, 'A'))
 
 # Answer below illustrates correct output:
