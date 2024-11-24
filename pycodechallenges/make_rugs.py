@@ -9,14 +9,14 @@
 
 import json
 
-def make_rug(m, n, s):
-  result = []
+def make_rug(column, row, char):
+  rug = []
 
-  for i in range(m):
-    value = s * n
-    result.append(value)
+  for i in range(column):
+    char_times_row = char * row
+    rug.append(char_times_row)
   
-  return f"make_rug{(m, n, s)} -> {json.dumps(result, indent=2)}"
+  return f"make_rug{(column, row, char)} -> {json.dumps(rug, indent=2)}"
 
 print(make_rug(3, 5, '#'),"\n")
 print(make_rug(3, 5, '$'),"\n")
