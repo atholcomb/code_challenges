@@ -3,6 +3,19 @@
 # identify_lang.py
 # Program identifies the language type for a given word
 
+def main():
+  print("Word       Lang")
+  
+  # test cases
+  print(identify_lang("futbol"))
+  print(identify_lang("baumkuken"))
+  print(identify_lang("kawaii"))
+  print(identify_lang("xing"))
+  print(identify_lang("ang"))
+  print(identify_lang("amor"))
+  print(identify_lang("privet"))
+  print(identify_lang("america"))
+
 def identify_lang(word):
   # denotes the language types
   language = ['en', 'de', 'jp', 'cn', 'kn', 'sp', 'ru', 'us']
@@ -27,12 +40,4 @@ def identify_lang(word):
     elif word == "america":
       return f"{word:10} {language[7]}"
 
-# test cases
-print(identify_lang("futbol"))
-print(identify_lang("baumkuken"))
-print(identify_lang("kawaii"))
-print(identify_lang("xing"))
-print(identify_lang("ang"))
-print(identify_lang("amor"))
-print(identify_lang("privet"))
-print(identify_lang("america"))
+main()
