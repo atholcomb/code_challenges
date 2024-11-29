@@ -4,7 +4,7 @@
 # Program identifies the language type for a given word
 
 def main():
-  print("Word       Lang")
+  print("Word\t\tLang")
   
   # test cases
   print(identify_lang("futbol"))
@@ -24,20 +24,20 @@ def identify_lang(word):
   # formats the output with a width of 10 spaces
   for lang in language:
     if word == "futbol":
-      return f"{word:10} {language[0]}"
+      return f"{word:15} {language[0]}"
     elif word == "baumkuken":
-      return f"{word:10} {language[1]}"
+      return f"{word:15} {language[1]}"
     elif word == "kawaii":
-      return f"{word:10} {language[2]}"
+      return f"{word:15} {language[2]}"
     elif word == "xing":
-      return f"{word:10} {language[3]}"
+      return f"{word:15} {language[3]}"
     elif word == "ang":
-      return f"{word:10} {language[4]}"
+      return f"{word:15} {language[4]}"
     elif word == "amor":
-      return f"{word:10} {language[5]}"
+      return f"{word:15} {language[5]}"
     elif word == "privet":
-      return f"{word:10} {language[6]}"
+      return f"{word:15} {language[6]}"
     elif word == "america":
-      return f"{word:10} {language[7]}"
+      return f"{word:15} {language[7]}"
 
 main()
