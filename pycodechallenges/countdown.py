@@ -6,12 +6,12 @@
 # Put a full stop after each number and uppercase and add an exclamation mark to the word.
 
 def countdown(n, string):
-    result = []
+  result = []
     
-    for num in range(n, 0, -1):
-        result.append(str(num))
+  for num in range(n, 0, -1):
+    result.append(str(num))
 
-    return f"{'. '.join(result)}. {string.upper()}!"
+  return f"{'. '.join(result)}. {string.upper()}!"
 
 print(countdown(10, "Blast Off")) # 10. 9. 8. 7. 6. 5. 4. 3. 2. 1. BLAST OFF!
 print(countdown(3, "go")) # 3. 2. 1. GO!
