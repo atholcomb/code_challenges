@@ -5,11 +5,11 @@
 
 def count(string):
   words = string.split('-') # split on hyphens (syllables)
-  word_count = 0
+  syllable_count = 0
 
   for index, syllable in enumerate(words):
-    word_count += 1
-  return word_count
+    syllable_count += 1
+  return syllable_count
 
 
 print(count("ho-tel"))          # 2
