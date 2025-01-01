@@ -14,6 +14,8 @@ def common_elements(list_a, list_b):
       result.add(item) 
 
   # convert the set into a list for ouput
+  if result == set():
+    return f"Original List: {list_a} -> Unique Value(s): Empty Set" 
   return f"Original List: {list_a} -> Unique Value(s): {result}" 
 
 print(common_elements([-1, 3, 4, 6, 7, 9], [1, 3]))
