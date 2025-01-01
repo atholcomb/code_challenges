@@ -6,18 +6,11 @@
 # appears exactly once.
 
 def consec_numbers(elements):
-  numbers = [1,2,3,4,5,6,7,8,9,10]
-  
-  for number in numbers:
-    if number in sorted(elements):
-      return True
-  return False
-
-  #for num in elements:
-  #  if elements[::-1] > elements[0:]:
-  #      return False
-  #  else:
-  #      return sorted(elements) 
+  for num in elements:
+    if elements[::-1] > elements[0:]:
+        return False
+    else:
+        return sorted(elements) 
 
 print(consec_numbers([5, 1, 4, 3, 2])) # [1, 2, 3, 4, 5]
 print(consec_numbers([5, 1, 4, 3, 2, 8])) # False
