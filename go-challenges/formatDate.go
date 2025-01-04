@@ -1,7 +1,9 @@
+/*
 // written by: atholcomb
 // main.go
 // Create a function that converts a date 
 // formatted as MM/DD/YYYY to YYYYDDMM.
+*/
 
 package main
 
