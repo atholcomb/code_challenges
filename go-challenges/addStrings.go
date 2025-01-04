@@ -1,6 +1,8 @@
+/*
 // written by: atholcomb
 // main.go
 // returns the sum of two strings 
+*/
 
 package main
 
