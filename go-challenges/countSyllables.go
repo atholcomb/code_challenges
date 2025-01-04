@@ -1,13 +1,15 @@
+/*
 // written by: atholcomb
 // main.go
 // Counts the number of syllables
 // for a given string
+*/
 
 package main
 
 import ( 
-    "fmt"
-    "strings"
+  "fmt"
+  "strings"
 )
 
 func main() {
