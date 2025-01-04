@@ -1,11 +1,13 @@
+/*
 // written by: atholcomb
 // main.go
 // Calculates the length of a string
+*/
 
 package main
 
 import (
-    "fmt"
+  "fmt"
 )
 
 func main() {
