@@ -1,8 +1,10 @@
+/*
 // written by: atholcomb
 // main.go
 // Write a function (fizzBuzz), that
 // returns FizzBuzz, Fizz, or Buzz
 // for all factors of 3, 5 or both 3 and 5
+*/
 
 package main
 
