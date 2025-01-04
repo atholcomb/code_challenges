@@ -5,13 +5,12 @@
 # Return True if one of them is 10 or if their sum is 10.
 
 def makes10(int1, int2):
-
-    if int1 == 10 or int2 == 10:
-        return True
-    elif int1 + int2 == 10:
-        return True
-    else:
-        return False
+  if int1 == 10 or int2 == 10:
+      return True
+  elif int1 + int2 == 10:
+      return True
+  else:
+      return False
 
 
 print(makes10(9, 10))   # True
