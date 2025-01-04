@@ -1,12 +1,14 @@
+/*
 // written by: atholcomb
 // main.go
 // Checks given string for double letters
+*/
 
 package main
 
 import (
-    "fmt"
-    "strings"
+  "fmt"
+  "strings"
 )
 
 func main() {
