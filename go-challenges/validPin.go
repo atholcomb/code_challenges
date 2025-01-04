@@ -1,6 +1,7 @@
-// written by: atholcomb
+/* written by: atholcomb
 // main.go
 // returns in a given pin is valid
+*/
 
 package main
 
