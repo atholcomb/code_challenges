@@ -1,11 +1,13 @@
+/*
 // written by: atholcomb
 // main.go
 // Adds two numbers and outputs the sum
+*/
 
 package main
 
 import ( 
-    "fmt"
+  "fmt"
 )
 
 func main() {
