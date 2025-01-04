@@ -1,13 +1,15 @@
+/*
 // written by: atholcomb
 // main.go
 // Program creates sequences of dna strands
+*/
 
 package main
 
 import ( 
-    "fmt"
-    "math/rand"
-    "time"
+  "fmt"
+  "math/rand"
+  "time"
 )
 
 func main() {
