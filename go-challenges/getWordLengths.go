@@ -1,13 +1,15 @@
+/*
 // written by: atholcomb
 // main.go
 // Given a word, stores the length of each word
 // and returns a slice with the word and length
+*/
 
 package main
 
 import (
-    "fmt"
-    "strconv"
+  "fmt"
+  "strconv"
 )
 
 func main() {
