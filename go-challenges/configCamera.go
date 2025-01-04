@@ -1,12 +1,14 @@
+/*
 // written by: atholcomb
 // main.go
 // Mock camera configuration --
 // Sets frame rate value for each camera
+*/
 
 package main
 
 import ( 
-    "fmt"
+  "fmt"
 )
 
 func main() {
