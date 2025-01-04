@@ -1,13 +1,15 @@
+/*
 // written by: atholcomb
 // main.go
 // Iterate through the alphabet
 // and output the rune literal of each 
 // letter as it's Unicode representation
+*/
 
 package main
 
 import ( 
-    "fmt"
+  "fmt"
 )
 
 func main() {
