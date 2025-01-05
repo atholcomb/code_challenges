@@ -1,11 +1,13 @@
+/*
 // written by: atholcomb
 // main.go
 // Prints first and last name
+*/
 
 package main
 
 import ( 
-    "fmt"
+  "fmt"
 )
 
 func main() {
