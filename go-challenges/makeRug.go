@@ -1,7 +1,9 @@
+/*
 // written by: atholcomb
 // main.go
 // Outputs a rug with n x n column and rows
 // with a specified character given
+*/
 
 package main
 
