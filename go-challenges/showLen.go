@@ -1,6 +1,8 @@
+/*
 // written by: atholcomb
 // main.go
 // Program outputs the length of a given sequential string
+*/
 
 package main
 
