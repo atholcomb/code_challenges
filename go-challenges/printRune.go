@@ -1,11 +1,13 @@
+/*
 // written by: atholcomb
 // main.go
 // returns a rune literal for a given rune
+*/
 
 package main
 
 import ( 
-    "fmt"
+  "fmt"
 )
 
 func printRune(r rune) {
