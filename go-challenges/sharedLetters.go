@@ -1,7 +1,14 @@
+/*
+// written by: atholcomb
+// main.go
+// Program compares two strings to test if they share the same letters
+*/
+
+
 package main
 
 import (
-    "fmt"
+  "fmt"
 )
 
 func main() {
