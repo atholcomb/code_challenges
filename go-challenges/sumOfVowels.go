@@ -1,3 +1,4 @@
+/*
 // written by: atholcomb
 // main.go
 // Create a function that takes a string and 
@@ -9,6 +10,7 @@
 // I	    1
 // O	    0
 // U	    0
+*/
 
 package main
 
