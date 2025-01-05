@@ -1,10 +1,14 @@
+/*
 // written by: atholcomb
 // main.go
 // returns the count of users online
+*/
 
 package main
 
-import "fmt"
+import (
+  "fmt"
+)
 
 func main() {
   fmt.Println(onlineCount(map[string]string{"Alice":"offline", "Bob":"online", "Jenny":"online"}))
