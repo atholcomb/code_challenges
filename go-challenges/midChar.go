@@ -1,11 +1,13 @@
+/*
 // written by: atholcomb
 // main.go
 // returns the middle char of given string
+*/
 
 package main
 
 import (
-    "fmt"
+  "fmt"
 )
 
 func main() {
