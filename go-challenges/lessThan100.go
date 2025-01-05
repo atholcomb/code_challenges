@@ -1,13 +1,15 @@
+/*
 // written by: atholcomb
 // main.go
 // sums 2 integers and returns
 // true if the sum is less then 
 // 100 and false otherwise
+*/
 
 package main
 
 import (
-    "fmt"
+  "fmt"
 )
 
 func main() {
