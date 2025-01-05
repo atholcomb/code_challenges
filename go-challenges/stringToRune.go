@@ -1,11 +1,13 @@
+/*
 // written by: atholcomb
 // main.go
 // returns the string and rune literal values together
+*/
 
 package main
 
 import ( 
-    "fmt"
+  "fmt"
 )
 
 func stringToRune(s string) {
