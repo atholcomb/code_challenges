@@ -1,7 +1,9 @@
+/*
 // written by: atholcomb
 // main.go
 // returns the sum of all odds and evens
 // both positive and negative
+*/
 
 package main
 
