@@ -1,6 +1,8 @@
+/*
 // written by: atholcomb
 // main.go
 // returns the length of an integer given
+*/
 
 package main
 
