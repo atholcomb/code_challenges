@@ -1,7 +1,9 @@
+/*
 // written by: atholcomb
 // main.go
 // Given an original string, encrypt string with vowels
 // replaced with key index value + aca added to the end
+*/
 
 package main
 
