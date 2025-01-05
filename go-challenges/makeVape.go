@@ -1,11 +1,13 @@
+/*
 // written by: atholcomb
 // main.go
 // Test struct called Vape
+*/
 
 package main
 
 import (
-    "fmt"
+  "fmt"
 )
 
 type vape struct {
