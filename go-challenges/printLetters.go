@@ -1,12 +1,14 @@
+/*
 // written by: atholcomb
 // main.go
 // returns a string n times
+*/
 
 package main
 
 import ( 
-    "fmt"
-    "strings"
+  "fmt"
+  "strings"
 )
 
 func main() {
