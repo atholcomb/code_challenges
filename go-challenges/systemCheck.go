@@ -1,12 +1,14 @@
+/*
 // written by: atholcomb
 // main.go
 // Program outputs a mock system check analysis
+*/
 
 package main
 
 import ( 
-    "fmt"
-    "time"
+  "fmt"
+  "time"
 )
 
 func main() {
