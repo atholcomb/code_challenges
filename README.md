@@ -1,4 +1,4 @@
 # code-challenges
 Code challenges from different languages
 
-![coding_challenge](https://github.com/user-attachments/assets/371daf15-269c-4cbc-a89d-8ec4e508c75f)
+![python_golang_challenges](https://www.zeeclick.com/wp-content/uploads/2023/03/Python-vs-Golang.png)
