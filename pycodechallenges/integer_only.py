@@ -6,17 +6,17 @@
 
 def integer_only(string):
 
-    characters = 'abcdefghijklmnopqrstuvwxyz'
-    result = []
+  characters = 'abcdefghijklmnopqrstuvwxyz'
+  result = []
 
-    for item in string[:]:
-        for letter in item:
-            if letter in characters:
-                letter.replace(letter, '')
-            else: 
-                result.append(letter)
-    
-    return int(''.join(result))
+  for item in string[:]:
+      for letter in item:
+          if letter in characters:
+              letter.replace(letter, '')
+          else: 
+              result.append(letter)
+  
+  return int(''.join(result))
 
 
 print(integer_only('b101a01'))
