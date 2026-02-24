@@ -1,5 +1,5 @@
 /*
-/* written by: atholcomb
+/* Written By: atholcomb
 /* main.go
 /* Given an original string, encrypt string with vowels
 /* replaced with key index value + aca added to the end
@@ -14,13 +14,16 @@ import (
 
 func main() {
   /* setup header row to identify original string vs encrypted string */
-  fmt.Printf("%s\t%s\n", "string", "eString")
+  fmt.Println("string\t\teString")
+  fmt.Println("------\t\t-------")
 
   fmt.Println(karacaAlgo("apple"))
   fmt.Println(karacaAlgo("banana"))
   fmt.Println(karacaAlgo("karaca"))
   fmt.Println(karacaAlgo("burak"))
-  fmt.Println(karacaAlgo("alpaca"))
+  fmt.Println(karacaAlgo("oscar"))
+  fmt.Println(karacaAlgo("limatores"))
+  fmt.Println(karacaAlgo("obfuscated"))
 }
 
 func karacaAlgo(str string) string {
@@ -30,8 +33,8 @@ func karacaAlgo(str string) string {
     "a":"0",
     "e":"1",
     "i":"2",
-    "o":"2",
-    "u":"3",
+    "o":"3",
+    "u":"4",
   }
   
   /* reverse the original given string */
@@ -49,6 +52,7 @@ func karacaAlgo(str string) string {
   }
 
   /* format encrypted string with tab spacing and add "aca" at end of string */  
-  result = fmt.Sprintf("%s\t%s%s", str, encryptedStr, "aca")
+  //result = fmt.Sprintf("%s\t\t%s%s", str, encryptedStr, "aca")
+  result = fmt.Sprintf("%-16s%s%s", str, encryptedStr, "aca")
   return result
 }
