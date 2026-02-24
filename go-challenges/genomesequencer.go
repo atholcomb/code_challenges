@@ -16,11 +16,11 @@ func main() {
   fmt.Println("Genome Sequencer | Sequence starts in 2 seconds")
   fmt.Println("-----------------------------------------------")
 
-  /* Postpone sequence start by 3 seconds */
+  /* Postpone sequence start by 2 seconds */
   time.Sleep(2 * time.Second)     
 
   /* Number of sequences to be printed, up to 21 */
-  genomeSequencer(21)
+  genomeSequencer(5)
 }
 
 func genomeSequencer(count int) {
