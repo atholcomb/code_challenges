@@ -15,7 +15,7 @@ func main() {
   env := sysCheck()
 
   fmt.Printf("%s%s\n", "Connected to system: ", "glk-ath-2427-OMA")
-  fmt.Println("***Reading attributes***")
+  fmt.Println("/reading attributes...")
 
   for k, v := range env {
     time.Sleep(1 * time.Second)
