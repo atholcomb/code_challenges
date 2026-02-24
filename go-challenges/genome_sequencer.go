@@ -24,6 +24,7 @@ func main() {
 }
 
 func genomeSequencer(count int) {
+  /* store DNA inscription letters in to genome variable */
   var genome = []string{"a", "t", "g", "c"}
 
   for i := 1; i < count; i++ {
