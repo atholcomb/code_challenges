@@ -1,7 +1,7 @@
 /*
 /* Written By: atholcomb
 /* genomesequencer.go
-/* Outputs pseudo like sequence strands 
+/* Outputs pseudo like DNA sequence strands 
 */
 
 package main
